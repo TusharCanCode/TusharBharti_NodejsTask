@@ -4,7 +4,7 @@
   "description": "This package is build to create the backend for the assignment provided by lattice",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Tushar Bharti",
   "license": "ISC",
