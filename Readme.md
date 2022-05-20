@@ -1,3 +1,6 @@
+# Deployed web link (Heroku)
+### `https://tushar-bharti-nodejs-task.herokuapp.com/`
+
 # Libraries/Frameworks used:
 ### `express`
 Used for routing in nodeJS. Express is easy to use and if you have knowledge of javascript it becomes easier
@@ -50,3 +53,26 @@ This route is created for fetching all patients of logged in psychiatrist.
 
 ### `GET /api/patient/patientList`
 This route is created for fetching patients registered for each psychiatrist.
+
+# Postman Link
+### `https://www.postman.com/naivedev/workspace/tushar-bharti-nodejs-task/collection/16542984-16026d42-714b-4b87-a6cc-0c784dc48da8?action=share&creator=16542984`
+
+# How to deploy project
+### `If you are downloading the project in your system:`
+1. Use command : `npm i` to install all the required packages
+2. Create a .env file with following key-value pairs:
+   1. SQL_HOST = Mysql database host
+   2. SQL_USER = Mysql database user
+   3. SQL_PASSWORD = Mysql database password
+   4. SQL_DB_NAME = Mysql database name
+   5. SQL_CONNECTION_LIMIT = Connections limit
+   6. ACCESS_TOKEN = Secret Key to sign JWT
+   7. FIREBASE_KEY = firebase api key
+3. Use command : `npm start` to deploy the project at localhost
+4. Test the project through postman collection endpoints
+
+### `If you are using the project already deployed on heroku:`
+1. Test the project through postman collection endpoints.
+
+# Repository url
+### `https://github.com/TusharCanCode/TusharBharti_NodejsTask`
